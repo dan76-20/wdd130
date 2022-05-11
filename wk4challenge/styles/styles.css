@@ -1,0 +1,47 @@
+h1:hover {
+    color: black;
+}
+h1 {
+    font-family: 'arial black';
+}
+body {
+    background-color: #f7a6cc;
+}
+header {
+    text-align: center;
+    color: white;
+}
+header p {
+    max-width: 450px;
+    min-width: 450px;
+    margin: 20px auto;
+}
+#header_sig {
+    font-size: 1.2em;
+}
+img {
+    max-width: 200px;
+    max-height: 400px;
+    display: block;
+    margin: 0 auto;
+}
+#quote {
+    color: white;
+    font-size: 2.2rem;
+    max-width: 300px;
+    min-width: 300px;
+    margin: 50px auto;
+    text-align: center;
+}
+footer {
+    max-width: 325px;
+    min-width: 325px;
+    text-align: center;
+    margin: 0 auto;
+}
+#list {
+    max-width: 500px;
+    min-width: 500px;
+    margin: 0 auto;
+    font-family: 'arial black';
+}
