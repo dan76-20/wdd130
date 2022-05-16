@@ -1,0 +1,22 @@
+.flex-container {
+    display: flex;
+    background-color: gray;
+    max-width: 100%;
+}
+.round {
+    border-radius: 100%;
+    border: solid dimgray 20px;
+    max-width: 25%;
+    margin: 5% auto;
+    min-width: 1%;
+}
+.header-img {
+    width: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
