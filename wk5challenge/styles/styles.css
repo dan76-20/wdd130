@@ -7,16 +7,13 @@
     border-radius: 100%;
     border: solid dimgray 20px;
     max-width: 25%;
-    margin: 5% auto;
+    margin: 3% auto;
     min-width: 1%;
 }
 .header-img {
     width: 100%;
 }
-body {
-    display: flex;
-    flex-direction: column;
+* {
+    font-size: 0;
     margin: 0;
-    padding: 0;
 }
-
