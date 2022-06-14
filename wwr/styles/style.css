@@ -186,6 +186,43 @@ main section img {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+.faqH2 {
+    grid-column: 1/11;
+}
+
+.question {
+    grid-column: 1/5;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.odd {
+    grid-column: 1/4;
+    text-align: left;
+    padding: 10px 10px 10px 20px;
+    border: solid black 2px;
+}
+.even {
+    grid-column: 2/5;
+    text-align: left;
+    padding: 10px 10px 10px 20px;
+    border: solid black 2px;
+}
+
+.faqimg {
+    padding: 10px;
+    margin-top: .8rem;
+}
+
+.faqDiv {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+
+
+
 /* Media Query */
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
@@ -226,6 +263,16 @@ main section img {
     }
     footer {
         margin-top: 25px;
+    }
+
+    /*getting rid of the grid and images for the divs*/
+    .faqimg {
+        display: none;
+        display:
+    }
+    .faqDiv {
+        display: grid;
+        grid-template-columns: 1fr;
     }
 }
       
