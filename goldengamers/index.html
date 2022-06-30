@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
     <title>Golden Gamers</title>
 </head>
 
@@ -19,12 +20,17 @@
                 <a href="benefits.html">The Benefits</a>
                 <a href="join.html">Join Now</a>
             </nav>
-            <img class="heroimg" src="images/woman_with_son_gaming.jpeg" alt="Woman playing games with Son">
+            
         </header>
         <main>
-            <section>
+            <div class="heroimg">
+                <img src="images/woman_with_son_gaming.jpeg" alt="Woman playing games with Son">
+            </div>
+            <section class="gridcontainer" id="homewelcome">
                 <h2>Welcome Gamer</h2>
-                <p>
+                <p id="welcomeparagraph">
+                    <img src="images/man_on_couch_with_controller.jpeg" alt="man on couch with
+                a video game controller" id="paragraphimg">
                     Welcome Gamers! Did you know that over a quarter of all video game players
                     are over the age of 45? Amazing isn’t it? To many people think of games as
                     being for children, well those people are wrong. Gaming knows no age. A
@@ -40,29 +46,36 @@
                     stand in your way, come and join us. Find that new world and make new
                     friends. So many worlds need you. Hero, adventure awaits. Click the button
                     below and join us on this adventure.
-                    <img src="images/man_on_couch_with_controller.jpeg" alt="man on couch with
-                a video game controller">
-                </p>
 
+                </p>
+            </section>
+            <section class="gridcontainer" id="smallercontainer">
+                <h2>The New Gamers</h2>
                 <div id="playerdiv">
-                    <p>
+                    <p id="newgamers">
                         Never fear that you are alone. Check out these news videos
                         showing how popular gaming is becoming with people over the age
-                        of 60! Don't let your fears of technology stand in your way, come 
+                        of 60! Don't let your fears of technology stand in your way, come
                         and join us. Find that new world and make new friends.
-                        So many worlds need you. Hero, adventure awaits. Click 
+                        So many worlds need you. Hero, adventure awaits. Click
                         the button below and join us on this adventure.
                     </p>
-                    <iframe width="420" height="315" src="https://www.youtube.com/embed/WEV4ErdTlJo"></iframe>
-                    <iframe width="420" height="315" src="https://www.youtube.com/embed/QEe1QhicCPg"></iframe>  
+
+                    <iframe class="video" width="420" height="315" src="https://www.youtube.com/embed/WEV4ErdTlJo"></iframe>
+                    <iframe class="video" width="420" height="315" src="https://www.youtube.com/embed/QEe1QhicCPg"></iframe>
+
                 </div>
 
-                <button id="mybutton" type="button">Join Now</button>
             </section>
+            <div class="buttondiv">
+                <button id="mybutton" type="button">Join Now</button>
+            </div>
         </main>
         <footer>
             <h3>Daniel Marks &copy; 2022</h3>
-            <a href="site-plan.html">Site Plan</a>
+            <div id="linktositeplan">
+                <a href="site-plan.html">Site Plan</a>
+            </div>
             <div class="social">
                 <a href="https://facebook.com" target="_blank">
                     <img src="images/facebook.png" alt="fb icon">
