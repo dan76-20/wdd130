@@ -131,13 +131,10 @@ nav {
     font-size: 2rem;
 }
 
-#linktositeplan:hover {
-    color: #28AFB0;
-}
-
 footer a:hover, header a:hover {
-    background-color: white;
+    background-color: #28afb0;
     color: black;
+    border: solid black 4px;
 }
 
 img {
